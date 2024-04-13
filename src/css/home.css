@@ -1,0 +1,104 @@
+.py-60 {
+  padding: 60px 0;
+}
+
+body {
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.carousel__main {
+  box-sizing: border-box !important;
+  background-size: cover;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.carousel__banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+}
+
+.carousel__title {
+  position: absolute;
+  top: 210px;
+  right: 370px;
+}
+
+.carousel__title {
+  text-align: center;
+}
+
+.carousel__title .carousel__content p {
+  font-size: 1.8rem;
+  color: #f6ecef;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.carousel__title .carousel__content h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #2ecc71;
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+button.bg-color-buttom {
+  background-color: #2ecc71;
+  width: 150px;
+  height: 50px;
+}
+
+.carousel__title .carousel__content button {
+  background-color: #2ecc71 !important;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  padding: 5px 25px;
+  border: 1px solid rgb(135, 7, 7);
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  transition: all 0.8s;
+}
+
+.carousel__title .carousel__content button:hover {
+  background-color: rgb(135, 7, 7) !important;
+}
+
+.carousel__title .arrow__down i {
+  font-size: 1.8rem;
+  color: white;
+  animation-name: arrow__down;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrow__down {
+  /* 0%{
+
+  }
+  100%{} */
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(50px);
+    opacity: 0.2;
+  }
+}
+.service__main {
+  background-color: white;
+}/*# sourceMappingURL=home.css.map */

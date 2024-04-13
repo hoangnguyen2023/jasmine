@@ -1,0 +1,86 @@
+.py-50 {
+  padding: 50px 0;
+}
+
+.py-20 {
+  padding: 20px 0;
+}
+
+.wow__main {
+  background-color: white;
+}
+
+.Blog__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 10px;
+}
+.Blog__content img.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(100%);
+}
+
+img.stones {
+  width: 100%;
+  filter: brightness(100%);
+}
+
+.Blog__icon {
+  position: relative;
+}
+
+.blog__head {
+  width: 50%;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  text-align: center;
+}
+.blog__head p {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.blog__head a {
+  font-size: 3.5rem;
+  color: #2ecc71;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.blog__title h5.blog__title__top {
+  color: rgb(186, 182, 182);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.blog__item {
+  padding-top: 20px;
+}
+.blog__item p {
+  font-size: 1rem;
+  font-weight: 200;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+.blog__item p.item {
+  padding: 20px 0;
+}
+
+.card-title {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: black;
+}
+
+.card-title:hover {
+  color: #35A22c;
+}/*# sourceMappingURL=Wow.css.map */

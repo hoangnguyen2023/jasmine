@@ -1,0 +1,27 @@
+.mgbottom-200 {
+  margin: 160px 0;
+}
+
+.banner__headtitle {
+  position: relative;
+}
+.banner__headtitle h4.banner__title {
+  position: absolute;
+  top: 20%;
+  right: 50%;
+  color: white;
+}
+.banner__headtitle .about__item {
+  width: 30%;
+}
+.banner__headtitle .about__item img {
+  position: absolute;
+  bottom: -140px;
+  width: 100%;
+}
+
+.banner__headtitle img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}/*# sourceMappingURL=bannerabout.css.map */

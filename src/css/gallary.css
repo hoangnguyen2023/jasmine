@@ -1,0 +1,43 @@
+.py-60 {
+  padding: 60px 0;
+}
+
+.container {
+  padding: 0 !important;
+}
+
+.mg-100 {
+  margin-top: 280px;
+}
+
+.carousel__headtitle {
+  position: relative;
+}
+.carousel__headtitle img {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.carousel__headtitle h4.title {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.carousel__headtitle .gallary__item {
+  position: absolute;
+  bottom: -220px;
+  left: 5%;
+}
+
+.gallary__item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+img.item {
+  width: 100%;
+  height: 35vh;
+}/*# sourceMappingURL=gallary.css.map */

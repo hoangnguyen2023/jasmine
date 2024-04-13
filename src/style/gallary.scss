@@ -1,0 +1,57 @@
+$header-navbar-color: #35A22c;
+$header-navbar-font: 18px;
+$header-navbar-backgroudColor: #f6ecef;
+$hover-color: rgb(135, 7, 7);
+$font-family-default: "Wix Madefor Display", sans-serif;
+$padding-bottom: 30px;
+$color-backgroup: white;
+$color-buttom:#2ecc71;
+$color:#2ecc71;
+
+
+.py-60 {
+    padding: 60px 0;
+}
+
+.container{
+    padding: 0 !important;
+}
+.mg-100{
+    margin-top: 280px;
+}
+//carousel banner
+
+
+.carousel__headtitle{
+    position: relative;
+    & img{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;        
+    }
+    & h4.title{
+        position: absolute;
+        top: 30%;
+        left:40%;
+        font-size: 2.5rem; 
+        font-weight: 700;
+    }
+    & .gallary__item{
+        position: absolute;
+        bottom: -220px;
+        left:5%;
+    }
+}
+
+.gallary__item{ 
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+img.item{
+    width: 100%;
+    height: 35vh;
+}
+
+
+

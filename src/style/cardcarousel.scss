@@ -1,0 +1,61 @@
+$header-navbar-color: #35A22c;
+$header-navbar-font: 18px;
+$header-navbar-backgroudColor: #f6ecef;
+$hover-color: rgb(135, 7, 7);
+$font-family-default: "Wix Madefor Display", sans-serif;
+$padding-bottom: 30px;
+$color-backgroup: white;
+$color-buttom:#2ecc71;
+$color:#2ecc71;
+.py-60 {
+    padding: 60px 0;
+}
+.py-30{
+    padding: 30px 30px !important;
+}
+.py-60-bottom{
+    padding-bottom: 60px;
+}
+
+.card {
+    border: 0 !important;
+}
+.container{
+    padding: 0 !important;
+}
+
+
+.body__content ul li{
+    list-style: none;
+    & a {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        font-weight: 10;
+        cursor: pointer;
+
+    }
+
+}
+.card__comment{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.card__comment{
+  border-top: rgb(223, 222, 222) solid thin;
+
+}
+.card__comment ul li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.card-footer{
+    background-color:white !important;
+}
+
+

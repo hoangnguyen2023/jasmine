@@ -1,0 +1,18 @@
+.form__contact input {
+  margin: 10px;
+  width: 365px;
+  height: 45px;
+}
+
+form.form__contact button {
+  width: 755px;
+  height: 40px;
+  color: white;
+  background-color: #2ecc71;
+  transition: all 0.7s;
+}
+
+form.form__contact button:hover {
+  background-color: rgb(135, 7, 7);
+  cursor: pointer;
+}/*# sourceMappingURL=contact.css.map */

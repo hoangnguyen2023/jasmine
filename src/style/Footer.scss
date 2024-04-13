@@ -1,0 +1,121 @@
+$header-navbar-color: #35A22c;
+$header-navbar-font: 18px;
+$header-navbar-backgroudColor: #f6ecef;
+$hover-color: rgb(135, 7, 7);
+$font-family-default: "Wix Madefor Display", sans-serif;
+$padding-bottom: 30px;
+$color-backgroup: white;
+$color-buttom:#2ecc71;
+$color:#2ecc71;
+$backgroud-color:black;
+
+.footer__main{
+    background-color: $backgroud-color;
+    
+}
+footer {
+    width: 100%;
+    background-color: #05294d;
+}
+
+.footer_item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 0;
+   
+}
+.footer_content{
+    text-align: center;
+}
+
+.footer_content a {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffff;
+    transition: all 0.5s;
+}
+
+.gerister .input {
+    max-width: 190px;
+    padding: 8px;
+    font-size: 1rem;
+    color: black;
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+    border: 2px solid #fff;
+    margin-right: -5px;
+}
+
+.gerister .button {
+    border: none;
+    background-color: $color-buttom;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    color: #fff;
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
+    cursor: pointer;
+}
+
+.footer_content a:hover {
+    color: #e1b12c;
+}
+
+.footer_item i {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #f1f2f6;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #f1f2f6;
+    line-height: 40px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.footer_item i:hover {
+    color: #e1b12c;
+    border-color: #e1b12c;
+}
+
+.footer_item p {
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 35px;
+
+}
+
+.footer_item h3 {
+    color: #e1b12c;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer_time {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #f1f2f6;
+    margin-right: 20px;
+
+}
+
+.footer_time p {
+    line-height: 50px;
+}
+
+.footer_copyright {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer_copyright p {
+    color: #f1f2f6;
+    padding-bottom: 20px;
+}

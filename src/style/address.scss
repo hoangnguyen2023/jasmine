@@ -1,0 +1,71 @@
+$header-navbar-color: #35A22c;
+$header-navbar-font: 18px;
+$header-navbar-backgroudColor: #f6ecef;
+$hover-color: rgb(135, 7, 7);
+$font-family-default: "Wix Madefor Display", sans-serif;
+$padding-bottom: 30px;
+$color-backgroup: white;
+$color-buttom:#2ecc71;
+$color:#2ecc71;
+.py-50{
+    padding-bottom: 50px;
+}
+.title__contact {
+    text-align: center;
+    padding: 40px 0;
+
+    & h1 {
+        text-transform: capitalize;
+        font-size: 2.5rem;
+        font-weight: 300;
+        padding-bottom: 20px;
+       
+
+    }
+
+    & p {
+        font-size: 1rem;
+        font-weight: 100;
+
+    }
+}
+
+.contact__content {
+    display: flex;
+
+}
+
+.contact__map {
+    width: 60%;
+}
+
+.contact__form {
+    width: 40%;
+    padding: 0 1rem;
+}
+
+.contact__form form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact__form form input,
+.contact__form form textarea {
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+
+}
+
+.contact__form form input[type="button"] {
+    margin-bottom: 0;
+    background-color:$color;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.contact__form form input[type="button"]:hover {
+    background-color:$hover-color;
+    border: 0.5px solid #c8c4c4;
+}
